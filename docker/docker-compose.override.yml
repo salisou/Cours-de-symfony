@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  nginx:
+    ports:
+      - 8081:80
+  mysql:
+    ports:
+      - 33061:3306
+  redis:
+    ports:
+      - 63790:6379
+  phpmyadmin:
+    ports:
+      - 8080:80
